@@ -5,7 +5,7 @@
   "main": "index.md",
   "scripts": {
     "generate": "wkhtmltopdf https://teritorio.github.io/presentation-builder/ index.pdf",
-    "generate:local": "md-to-pdf index.md"
+    "generate:local": "md-to-pdf --pdf-options '{ \"landscape\": true, \"format\": \"A4\" }' index.md"
   },
   "repository": {
     "type": "git",
