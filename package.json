@@ -1,21 +1,21 @@
 {
-  "name": "resume",
+  "name": "@teritorio/presentation-builder",
   "version": "1.0.0",
-  "description": "Noé Viricel's resume",
+  "description": "Teritorio - Presentation builder",
   "main": "index.md",
   "scripts": {
-    "generate": "wkhtmltopdf https://resume.wazo-lab.io/ resume.pdf"
+    "generate": "wkhtmltopdf https://teritorio.github.io/presentation-builder/ index.pdf"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/wazolab/resume.git"
+    "url": "git+ssh://git@github.com:teritorio/presentation-builder.git"
   },
-  "author": "Noé Viricel <noe.viricel@wazo-lab.io>",
+  "author": "Noé Viricel <n.viricel@teritorio.fr>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wazolab/resume/issues"
+    "url": "https://github.com/teritorio/presentation-builder/issues"
   },
-  "homepage": "https://github.com/wazolab/resume#readme",
+  "homepage": "https://github.com/teritorio/presentation-builder#readme",
   "devDependencies": {
     "wkhtmltopdf": "^0.4.0"
   }
