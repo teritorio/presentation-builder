@@ -4,7 +4,8 @@
   "description": "Teritorio - Presentation builder",
   "main": "index.md",
   "scripts": {
-    "generate": "wkhtmltopdf https://teritorio.github.io/presentation-builder/ index.pdf"
+    "generate": "wkhtmltopdf https://teritorio.github.io/presentation-builder/ index.pdf",
+    "generate:local": "md-to-pdf index.md"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/teritorio/presentation-builder#readme",
   "devDependencies": {
+    "md-to-pdf": "^5.2.4",
     "wkhtmltopdf": "^0.4.0"
   }
 }

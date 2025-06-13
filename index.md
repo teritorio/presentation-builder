@@ -259,3 +259,5 @@ Dans les "envies" :
 
 - acculturation de collègues des universités UBM et UGE (pensées toutes particulières à Sophie Moreau coordo MadAtlas et  Olivier Pissoat de l'UMR Passages
 - échanges et discussions avec beaucoup de monde,
+
+<link rel="stylesheet" type="text/css" href="index.css">
